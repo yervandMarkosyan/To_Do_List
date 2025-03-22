@@ -70,7 +70,7 @@ function ToDoList(){
 		 <span className="text">{task}</span>
 		 <button
 		     className="delete-button"
-		     onclick={() => deleteTask(index)}>
+		     onClick={() => deleteTask(index)}>
 		     🗑️
 		 </button>
 		 <button
